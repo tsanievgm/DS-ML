@@ -7,5 +7,7 @@ Currently, I'm transitioning into Neural Network Development and actively traini
 I'm excited to expand my knowledge in AI and ML, working on real-world projects, and contributing to the rapidly evolving field of artificial intelligence.
 
 🌍 Based in Tbilisi, Georgia
+
 ✉️ Contact me at tsanievg@gmail.com
+
 🐍 Currently mastering Python for ML & Deep Learning
