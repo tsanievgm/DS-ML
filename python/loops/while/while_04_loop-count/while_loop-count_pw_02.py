@@ -1,15 +1,12 @@
 deposit = int(input('Вклад в банке: '))
-rate_number = int(input('Проценты: '))
-interest_amount = 0
-target_deposit = int(input('Порог вклада: '))
-year_count = 0
+interest_rate = int(input('Проценты: '))
+target = int(input('Порог вклада: '))
+total_amount = 0
+year_count = 1
 
-while interest_amount < target_deposit:
+while deposit < target:
+    total_amount = deposit + int((deposit * interest_rate) / 100)
+    print(f'{year_count} год. {deposit} + {interest_rate}% = {total_amount}')
+    deposit = total_amount
     year_count += 1
-    interest_amount = deposit + int((deposit * rate_number) / 100)
-    deposit = interest_amount
-    print(f'{year_count} год. {deposit} + {rate_number}% = {interest_amount}')
-
 print(f'Количество лет для достижения порога: {year_count}')
-
-
