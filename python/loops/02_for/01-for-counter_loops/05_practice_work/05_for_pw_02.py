@@ -1,3 +1,5 @@
+# Задача "Посчитай чужую зарплату"
+
 total_salary = 0
 for money in range(1, 13):
     salary = int(input('Введите зарплату сотрудника: '))

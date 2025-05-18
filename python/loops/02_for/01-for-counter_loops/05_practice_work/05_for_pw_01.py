@@ -1,3 +1,5 @@
+# Задача "Космический корабль"
+
 total_count = 0
 
 for number in range(1,11):
